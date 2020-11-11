@@ -1,7 +1,7 @@
 <img width="400" height="30" src="https://middlepot.com/img/lacey.png">\
 　　　　‌ ‌ ＿\
-　　　‌ ⊂⊂ ・）　꒰ ‌ https://aes.pooftie.me ‌ ꒱\
-　　　꒰ა/　|っ✄　꒰ ‌ aesthetic journal ‌ ꒱\
+　　　‌ ⊂⊂ ・）　 ꒰ ‌ 𝑎𝑒𝑠.𝑝𝑜𝑜𝑓𝑡𝑖𝑒.𝑚𝑒 ‌ ꒱\
+　　　꒰ა/　|っ✄꒰ ‌ aesthetic journal ‌ ꒱\
 　　　⊂____u\
   \
 <img width="400" height="250" src="https://middlepot.com/img/stationery.jpg">

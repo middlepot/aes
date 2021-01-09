@@ -73,6 +73,34 @@ position: fixed;
 	top: 7%;
 </style>
 </head>
+<style>
+html {
+    -webkit-text-size-adjust: 100%;
+    text-size-adjust: 100%;
+}
+#arrow1 { position:absolute; left: 85%; top: 50%; }
+#arrow2 { position:absolute; right: 85%; top: 50%; }
+@media screen and (max-width: 1000px) and (orientation: portrait){
+#everything { position: absolute; zoom: 155%;
+	left:-95px;
+	top:220px;
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg); }
+#stuff { left: -3%; top: 3%; }
+#arrow1 { left: 103%; top: 50%; }
+#arrow2 { right: 103%; top: 50%; }
+}
+@media screen and (max-width: 1000px) and (orientation: landscape){
+#everything { position: absolute; zoom: 90%; left:130px; top:-10px;}
+#stuff { left: 7%; top: 3%; }
+#arrow1 { left: 103%; top: 50%; }
+#arrow2 { right: 103%; top: 50%; }
+}
+</style>
+<div id="everything">
 
 <body style="background-image:url(https://i.imgur.com/WObpTeI.png); background-color:#FFF9F9; font-family: Verdana; font-size: 10px;">
 <body onkeydown="return false" oncontextmenu="return false" ondragstart="return false" onMouseOver="window.status='..message perso .. '; return true;" style="overflow-y:hidden; overflow-x:hidden;">
@@ -204,8 +232,8 @@ function getPosition(el) {
 
 <br><br><br><br><br>
 
-<a href="/iv"><img style="float: left; position: fixed; right: 85%; top: 50%;" src="https://i.imgur.com/YXoCK3p.png"></a>
-<a href="/vi"><img style="float: right; position: fixed; left: 85%; top: 50%;" src="https://i.imgur.com/RtbFZXI.png"></a>
+<a href="/iv"><img id="arrow2" src="https://i.imgur.com/YXoCK3p.png"></a>
+<a href="/vi"><img id="arrow1" src="https://i.imgur.com/RtbFZXI.png"></a>
 
 
 <center><img src="https://i.imgur.com/jxvycdQ.png">

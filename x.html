@@ -80,6 +80,8 @@ html {
 }
 #arrow1 { position:absolute; left: 85%; top: 50%; }
 #arrow2 { position:absolute; right: 85%; top: 50%; }
+
+@supports not (-webkit-touch-callout: none) {
 @media screen and (max-width: 1000px) and (orientation: portrait){
 #everything { position: absolute; zoom: 155%;
 	left:-95px;
@@ -92,7 +94,23 @@ html {
 #stuff { left: -3%; top: 3%; }
 #arrow1 { left: 103%; top: 50%; }
 #arrow2 { right: 103%; top: 50%; }
-}
+}}
+@supports (-webkit-touch-callout: none) {
+@media screen and (max-width: 1000px) and (orientation: portrait){
+#everything { position: absolute; zoom: 155%;
+	left:-95px;
+	top:220px;
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg); }
+#stuff { left: -3%; top: 3%; }
+#arrow1 { left: 103%; top: 50%; }
+#arrow2 { right: 103%; top: 50%; }
+html{-webkit-text-size-adjust: 150%; text-size-adjust: 150%;}
+}}
+
 @media screen and (min-width: 1700px) and (orientation: landscape){
 #everything { position: absolute; zoom: 130%;
 	left:300px;

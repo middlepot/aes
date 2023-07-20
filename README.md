@@ -2,4 +2,4 @@
   \
  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌꒰ ‌ 𝑎𝑒𝑠𝑡ℎ𝑒𝑡𝑖𝑐 𝑗𝑜𝑢𝑟𝑛𝑎𝑙 : ‌ aes.pooftie.me ‌ ꒱\
   \
-<img width="400" height="250" src="https://middlepot.com/img/stationery.jpg">
+<a href="https://aes.pooftie.me"><img width="400" height="250" src="https://middlepot.com/img/stationery.jpg"></a>

@@ -127,7 +127,7 @@ html {
 #arrow2 { position:absolute; right: 85%; top: 50%; }
 
 @supports not (-webkit-touch-callout: none) {
-@media screen and (max-width: 1000px) and (orientation: portrait){
+@media screen and (min-width: 1px) and (orientation: portrait){
 #everything { position: absolute; zoom: 155%;
 	left:-95px;
 	top:220px;
@@ -141,7 +141,7 @@ html {
 #arrow2 { right: 103%; top: 50%; }
 }}
 @supports (-webkit-touch-callout: none) {
-@media screen and (max-width: 1000px) and (orientation: portrait){
+@media screen and (min-width: 1px) and (orientation: portrait){
 #everything { position: absolute; zoom: 155%;
 	left:-95px;
 	top:220px;
@@ -165,9 +165,10 @@ html{-webkit-text-size-adjust: 150%; text-size-adjust: 150%;}
 #arrow2 { right: 103%; top: 50%; }
 }
 @media screen and (min-width: 2000px) and (orientation: landscape){
-#everything { position: absolute; zoom: 100%;}
-#arrow1 { position:absolute; left: 85%; top: 50%; }
-#arrow2 { position:absolute; right: 85%; top: 50%; }
+#everything { position: absolute; zoom: 170%;}
+#stuff { left: 12%; top: 8%; }
+#arrow1 { left: 103%; top: 50%; }
+#arrow2 { right: 103%; top: 50%; }
 }
 @media screen and (min-width: 3000px) and (orientation: landscape){
 #everything { position: absolute; zoom: 260%;
